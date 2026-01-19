@@ -3,53 +3,53 @@
 **Dành cho người mới bắt đầu, mỗi tháng tập trung vào một chủ đề lớn.**
 
 
-## Tháng 1: Lập trình cơ bản
+## Tháng 1: Kỹ thuật lập trình (Theo Lab KTLT)
 
 ### Lịch học chi tiết từng ngày
 
-#### Tuần 1: Giới thiệu lập trình và môi trường phát triển
-| Ngày | Nội dung |
-|------|----------|
-| 1 | Tìm hiểu về lập trình, các ứng dụng của lập trình |
-| 2 | Cài đặt môi trường (Python/Java/C/C++), làm quen với IDE |
-| 3 | Viết chương trình đầu tiên (Hello World) |
-| 4 | Ôn tập, thực hành Hello World với nhiều ngôn ngữ |
-| 5 | Tìm hiểu về lỗi, debug cơ bản |
-| 6 | Thực hành tổng hợp tuần 1 |
-| 7 | Nghỉ/Ôn tập |
+#### Tuần 1: Chuỗi ký tự và Mảng đa chiều
+| Ngày | Nội dung | Bài tập chi tiết |
+|------|----------|------------------|
+| 1 | C-String cơ bản | C1: `reverse` (đảo ngược), C2: `recover` (hoa/thường) ✅ |
+| 2 | C-String nâng cao | C3: `find` (tìm chuỗi con), C4: `printFirstRepeatedWord`, C5: `process` (xóa khoảng trắng) ✅ |
+| 3 | Class String (C++) | C6: `cutString`, C7: `findAllIndex` ✅ |
+| 4 | Class String nâng cao | C8: `replaceString`, C9: `deleteWord`, C10: Chuỗi đối xứng dài nhất ✅ |
+| 5 | Mảng 2 chiều cơ bản | C12: Cột có tổng lớn nhất, C13: Tích đường chéo chính |
+| 6 | Mảng 2 chiều nâng cao | C14: Ma trận đối xứng, C18: Số "HN3" (tổng hàng/cột là SNT) |
+| 7 | Nghỉ/Ôn tập | Tổng hợp kiến thức tuần 1 |
 
-#### Tuần 2: Biến, kiểu dữ liệu, toán tử, nhập xuất
-| Ngày | Nội dung |
-|------|----------|
-| 8 | Khái niệm biến, khai báo và sử dụng biến |
-| 9 | Các kiểu dữ liệu cơ bản: số nguyên, số thực |
-| 10 | Kiểu chuỗi, kiểu boolean |
-| 11 | Toán tử số học, so sánh, logic |
-| 12 | Nhập xuất dữ liệu từ bàn phím và ra màn hình |
-| 13 | Thực hành tổng hợp tuần 2 |
-| 14 | Nghỉ/Ôn tập |
+#### Tuần 2: File I/O và Hàm
+| Ngày | Nội dung | Bài tập chi tiết |
+|------|----------|------------------|
+| 8 | File I/O: Đọc số | C20: `calSum` (tổng số nguyên từ file) |
+| 9 | File I/O: Ma trận | C22: Đọc ma trận, tìm max dòng/max toàn bộ |
+| 10 | File I/O: Xử lý dữ liệu | C23: Điểm sinh viên, tính ĐTB, xếp loại |
+| 11 | Hàm: Logic số học | C28: `completeNum` (số hoàn thiện) |
+| 12 | Hàm: Chuỗi | C29: Kiểm tra Palindrome (đối xứng) |
+| 13 | Hàm: Mã hóa | C31: Caesar Cipher (mã hóa/giải mã) |
+| 14 | Nghỉ/Ôn tập | Tổng hợp kiến thức tuần 2 |
 
-#### Tuần 3: Cấu trúc điều kiện và vòng lặp
-| Ngày | Nội dung |
-|------|----------|
-| 15 | Câu lệnh điều kiện: if, else |
-| 16 | Câu lệnh elif, switch/case (nếu có) |
-| 17 | Vòng lặp for |
-| 18 | Vòng lặp while |
-| 19 | break, continue |
-| 20 | Thực hành giải bài toán sử dụng điều kiện và vòng lặp |
-| 21 | Nghỉ/Ôn tập |
+#### Tuần 3: Đệ quy, Con trỏ và Struct
+| Ngày | Nội dung | Bài tập chi tiết |
+|------|----------|------------------|
+| 15 | Đệ quy (Recursion) | C34: `calculate_power` ($n^e$), C35: GCD (đệ quy vs vòng lặp) |
+| 16 | Con trỏ cơ bản | C44: Tổng mảng 1 chiều dùng con trỏ |
+| 17 | Con trỏ và cấp phát động | C49: `zeros` (cấp phát mảng động) |
+| 18 | Con trỏ nâng cao | C51: `deepCopy` ma trận |
+| 19 | Struct cơ bản | C62-64: Struct SCP (id, class, description) |
+| 20 | Struct nâng cao | C65-67: SCP (xử lý phụ lục, so sánh nguy hiểm) |
+| 21 | Nghỉ/Ôn tập | Tổng hợp kiến thức tuần 3 |
 
-#### Tuần 4: Hàm và thực hành tổng hợp
-| Ngày | Nội dung |
-|------|----------|
-| 22 | Khái niệm hàm, khai báo và sử dụng hàm |
-| 23 | Tham số, giá trị trả về |
-| 24 | Phạm vi biến (scope) |
-| 25 | Thực hành viết hàm giải bài toán nhỏ |
-| 26 | Tổng hợp kiến thức tháng 1 |
-| 27 | Làm mini project nhỏ (ứng dụng console đơn giản) |
-| 28 | Ôn tập, chuẩn bị sang chủ đề mới |
+#### Tuần 4: Danh sách liên kết và OOP
+| Ngày | Nội dung | Bài tập chi tiết |
+|------|----------|------------------|
+| 22 | Linked List: Cơ bản | C70-71: Thêm phần tử vào đầu/cuối |
+| 23 | Linked List: Thao tác | C72: Chèn node vào vị trí bất kỳ |
+| 24 | Linked List: Kiểm tra | C68: `isEqual` (so sánh 2 danh sách) |
+| 25 | OOP: Thiết kế Class | C92: Hệ thống Pirate và Crew (Basic) |
+| 26 | OOP: Quan hệ đối tượng | C92: Quản lý thành viên, sức chứa thuyền |
+| 27 | OOP: Hệ thống phức tạp | C92: Tạo liên minh giữa các băng đảng |
+| 28 | Nghỉ/Ôn tập | Tổng kết tháng 1 |
 
 ---
 
