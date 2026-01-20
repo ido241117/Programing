@@ -14,8 +14,8 @@
 | 2 | C-String nâng cao | C3: `find` (tìm chuỗi con), C4: `printFirstRepeatedWord`, C5: `process` (xóa khoảng trắng) ✅ |
 | 3 | Class String (C++) | C6: `cutString`, C7: `findAllIndex` ✅ |
 | 4 | Class String nâng cao | C8: `replaceString`, C9: `deleteWord`, C10: Chuỗi đối xứng dài nhất ✅ |
-| 5 | Mảng 2 chiều cơ bản | C12: Cột có tổng lớn nhất, C13: Tích đường chéo chính |
-| 6 | Mảng 2 chiều nâng cao | C14: Ma trận đối xứng, C18: Số "HN3" (tổng hàng/cột là SNT) |
+| 5 | Mảng 2 chiều cơ bản | C12: Cột có tổng lớn nhất, C13: Tích đường chéo chính ✅ |
+| 6 | Mảng 2 chiều nâng cao | C14: Ma trận đối xứng, C18: Số "HN3" (tổng hàng/cột là SNT) ✅ |
 | 7 | Nghỉ/Ôn tập | Tổng hợp kiến thức tuần 1 |
 
 #### Tuần 2: File I/O và Hàm
