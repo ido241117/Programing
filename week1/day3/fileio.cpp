@@ -151,6 +151,35 @@ thông tin mua hàng).
 •Đầu ra: Số tiền mỗi khách hàng cần trả.
 */
 void calMoney(string price, string buy){
+    ifstream fileprice(price);
+    int productnum;
+    fileprice >> productnum;
+    int pricetable[1000];
+    for (int i = 0; i < productnum; i++){
+        int price,id;
+        fileprice >> id >> price;
+        pricetable[id] = price;
+    }
+
+    ifstream filebuy(buy);
+    int numcustomer;
+    filebuy >> numcustomer;
+    string line;
+    getline(filebuy, line);
+    for(int i=0;i<numcustomer;i++){
+        getline(filebuy, line);
+        stringstream ss(line);
+        string name;
+        ss >> name;
+        cout << name;
+        int count,countid;
+        int sum =0;
+        while(ss >> countid>> count){
+            sum+= count * pricetable[countid];
+        }
+        cout << " " << sum << "\n";
+
+    }
 
 }
 /*
@@ -191,54 +220,54 @@ giá trị True, ngược lại xuất ra False, với L và A được nhập v
 author.txt.
 •Đầu ra: True hoặc False ứng với đầu vào
 */
-void manage(string library, string book, string authorFile){
-    string inputL, inputA;
-    cin >> inputL >> inputA;
-
-    ifstream fLib(library);
-    int n; fLib >> n;
-    vector<int> booksInL;
-    for (int i = 0; i < n; i++) {
-        string libName;
-        fLib >> libName;
-        if (libName == inputL) {
-            for (int k = 0; k < 5; k++) {
-                int bid; fLib >> bid;
-                booksInL.push_back(bid);
+void manage(string library, string book, string authorFile, string author, string lib){
+    bool output = false;
+    ifstream authorfile(authorFile);
+    ifstream libfile(library);
+    int numauthor;
+    authorfile >> numauthor;
+    
+    int numlib;
+    libfile >> numlib;
+    string line;
+    getline(libfile, line);
+    
+    int bookinlib[5];
+    for(int i=0;i<numlib;i++){
+        getline(libfile, line);
+        stringstream ss(line);
+        string libname;
+        ss >> libname;
+        
+        if(libname==lib){
+            for(int j=0;j<5;j++){
+                ss >> bookinlib[j];
             }
-        } else {
-            int trashID;
-            for (int k = 0; k < 5; k++) fLib >> trashID;
         }
     }
 
-    if (booksInL.empty()) {
-        cout << "False";
-        return;
-    }
-
-    ifstream fAuthor(authorFile);
-    int p; fAuthor >> p;
-    string line;
-    getline(fAuthor, line); // consume newline
-    for (int i = 0; i < p; i++) {
-        getline(fAuthor, line);
+    
+    getline(authorfile, line);
+    for(int i=0;i<numauthor;i++){
+        getline(authorfile, line);
         stringstream ss(line);
-        string authorName;
-        ss >> authorName;
-        if (authorName == inputA) {
-            int bid;
-            while (ss >> bid) {
-                for (int b : booksInL) {
-                    if (b == bid) {
-                        cout << "True";
-                        return;
+        string authorname;
+        ss >> authorname;
+        if(authorname==author){
+            cout << authorname<< '\n';
+            int bookid;
+            while(ss >> bookid){
+                for(int j=0;j<5;j++){
+                    cout << '\n' << "so sánh: bookid == bookinlib: " << bookid << "===" << bookinlib[j] << '\n';
+                    if(bookid==bookinlib[j]){
+                        output = true;
+                        cout << "đã tìm thấy";
                     }
                 }
             }
         }
     }
-    cout << "False";
+    if(!output)cout << "không tìm thấy";
 }
 
 void run_tests() {
@@ -279,5 +308,9 @@ int main(){
 	//calSum("data.txt");
 	//uppercase("data.txt", "Hello111");
     //process("data.txt");
-    studendGrading("data.txt");
+    //studendGrading("data.txt");
+    //calMoney("price.txt", "buy.txt");
+    string author = "David";
+    string lib = "L1";
+    manage("libraries.txt","books.txt","authors.txt",author, lib);
 }
