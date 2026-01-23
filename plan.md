@@ -40,15 +40,15 @@
 | 20 | Struct nâng cao | C65-67: SCP (xử lý phụ lục, so sánh nguy hiểm) |
 | 21 | Nghỉ/Ôn tập | Tổng hợp kiến thức tuần 3 |
 
-#### Tuần 4: Danh sách liên kết và OOP
+#### Tuần 4: Dự án tổng hợp - Study in Pink Part 1 ✅
 | Ngày | Nội dung | Bài tập chi tiết |
 |------|----------|------------------|
-| 22 | Linked List: Cơ bản | C70-71: Thêm phần tử vào đầu/cuối |
-| 23 | Linked List: Thao tác | C72: Chèn node vào vị trí bất kỳ |
-| 24 | Linked List: Kiểm tra | C68: `isEqual` (so sánh 2 danh sách) |
-| 25 | OOP: Thiết kế Class | C92: Hệ thống Pirate và Crew (Basic) |
-| 26 | OOP: Quan hệ đối tượng | C92: Quản lý thành viên, sức chứa thuyền |
-| 27 | OOP: Hệ thống phức tạp | C92: Tạo liên minh giữa các băng đảng |
+| 22-23 | Dự án KTLT1 | **Study in Pink - Part 1** (Hoàn thành ✅) |
+| | Task 1: firstMeet() | Cuộc gặp gỡ đầu tiên - Xử lý EXP với điều kiện phức tạp |
+| | Task 2: traceLuggage() | Truy tìm hành lý - 3 con đường với xác suất P1, P2, P3 |
+| | Task 3: chaseTaxi() | Đuổi theo taxi - Ma trận 10x10, đường chéo, so sánh điểm |
+| | Task 4: checkPassword() | Kiểm tra & tìm mật khẩu hợp lệ - Validation & pattern |
+| 24-27 | Linked List & OOP | C70-72: Linked List cơ bản, C92: Pirate OOP System |
 | 28 | Nghỉ/Ôn tập | Tổng kết tháng 1 |
 
 ---

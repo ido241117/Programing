@@ -1,0 +1,21 @@
+# Build files
+build/*.exe
+build/*.o
+build/*.obj
+
+# Test outputs
+tests/output/*
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.exe
+*.out
+*.obj
+*.o
