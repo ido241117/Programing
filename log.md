@@ -63,3 +63,36 @@
         - Cấu trúc dự án với header files, source files, và test cases.
         - Sử dụng Makefile và scripts để build và test tự động.
 - **Tình trạng**: Đã hoàn thành dự án KTLT1 với 4 tasks chính, bao gồm 45+ test cases.
+
+## 2026-01-24
+- **Chủ đề**: Lập trình hướng đối tượng (OOP) - Class và Template trong C++.
+- **Nội dung hoàn thành**:
+    - **Class Integer cơ bản**:
+        - Thiết kế class Integer với biến private `val`.
+        - Constructor mặc định và constructor có tham số.
+        - Copy constructor từ object và pointer.
+        - Getter/Setter (`getValue()`, `setValue()`).
+    - **Nạp chồng toán tử (Operator Overloading)**:
+        - Toán tử `+` để cộng hai Integer.
+        - Toán tử `=` để gán giá trị.
+        - Toán tử `<<` để in trực tiếp với cout.
+    - **Template Function**:
+        - Thiết kế hàm `mysum()` với template để hỗ trợ nhiều kiểu dữ liệu (int, float, Integer).
+    - **Template Class - Array<T>**:
+        - Thiết kế class Array generic với template.
+        - Constructor với size và giá trị khởi tạo.
+        - Copy constructor (Deep Copy).
+        - Pointer constructor (Shallow Copy).
+        - Destructor để giải phóng bộ nhớ động.
+        - Getter/Setter (`getAt()`, `setAt()`).
+        - Nạp chồng toán tử `[]` để truy cập phần tử.
+        - Nạp chồng toán tử `=` để gán mảng.
+        - Test với các kiểu dữ liệu: int, char, Integer.
+    - **Kỹ năng áp dụng**:
+        - Encapsulation (đóng gói) với private/public.
+        - Constructor overloading.
+        - Copy constructor và sự khác biệt giữa Deep Copy vs Shallow Copy.
+        - Dynamic memory allocation với `new` và `delete[]`.
+        - Template programming cho code tái sử dụng.
+        - Operator overloading để làm code tự nhiên hơn.
+- **Tình trạng**: Đã hoàn thành các khái niệm OOP cơ bản và nâng cao (tương ứng Tuần 1 Tháng 3 trong kế hoạch).

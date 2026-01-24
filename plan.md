@@ -48,7 +48,10 @@
 | | Task 2: traceLuggage() | Truy tìm hành lý - 3 con đường với xác suất P1, P2, P3 |
 | | Task 3: chaseTaxi() | Đuổi theo taxi - Ma trận 10x10, đường chéo, so sánh điểm |
 | | Task 4: checkPassword() | Kiểm tra & tìm mật khẩu hợp lệ - Validation & pattern |
-| 24-27 | Linked List & OOP | C70-72: Linked List cơ bản, C92: Pirate OOP System |
+| 24 | **OOP cơ bản ✅** | **C74: Class Integer** - Constructor, Getter/Setter, Operator Overloading (+, =, <<) |
+| | | **Template Function** - Generic sum function cho nhiều kiểu dữ liệu |
+| | | **Template Class Array<T>** - Dynamic array với Copy/Pointer Constructor, Operator [] |
+| 25-27 | Linked List & OOP | C70-72: Linked List cơ bản, C92: Pirate OOP System |
 | 28 | Nghỉ/Ôn tập | Tổng kết tháng 1 |
 
 ---
